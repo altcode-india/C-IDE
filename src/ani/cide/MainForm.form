@@ -23,6 +23,12 @@
         <properties/>
         <border type="none"/>
         <children>
+          <component id="901f6" class="javax.swing.JButton" binding="saveAsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Save As"/>
+            </properties>
+          </component>
           <component id="b02f4" class="javax.swing.JButton" binding="saveButton" default-binding="true">
             <constraints/>
             <properties>

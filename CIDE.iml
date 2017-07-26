@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="substance-7.0.01" level="project" />
+    <orderEntry type="library" name="trident-1.4" level="project" />
   </component>
 </module>
