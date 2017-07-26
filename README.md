@@ -11,7 +11,7 @@ A simple c ide with code highlighting.
 
 ## Downloads:
 ### Version 1.0.1
-jar: http://github.com/sarkar4540/C-IDE/release/CIDE-1.0.1.jar
+jar: https://github.com/sarkar4540/C-IDE/raw/master/release/CIDE-1.0.1.jar
 
 ### Version 1.0
 jar: https://github.com/sarkar4540/C-IDE/raw/master/release/CIDE-1.0.jar
