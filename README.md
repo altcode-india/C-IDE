@@ -10,6 +10,9 @@ A simple c ide with code highlighting.
     Trident - substance/drop/7.0.01/trident-1.4.jar
 
 ## Downloads:
+### Version 1.0.1
+jar: http://github.com/sarkar4540/C-IDE/release/CIDE-1.0.1.jar
+
 ### Version 1.0
 jar: https://github.com/sarkar4540/C-IDE/raw/master/release/CIDE-1.0.jar
 

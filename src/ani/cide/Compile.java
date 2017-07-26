@@ -19,7 +19,7 @@ public class Compile {
         okButton.addActionListener(e -> {
             try {
                 ProcessBuilder pb=new ProcessBuilder();
-                String commands=fout+";echo \" \";echo \" \";echo \"-----End of Program-----\";read -p 'Press any key to exit'";
+                String commands="\""+fout+"\";echo \" \";echo \" \";echo \"-----End of Program-----\";read -p 'Press any key to exit'";
                 pb.command("xterm","-e",commands);
                 System.out.println(commands);
                 pb.start();
@@ -35,8 +35,8 @@ public class Compile {
         try {
             fout=fexp==null?f.getAbsolutePath()+".out":fexp.getAbsolutePath();
             textArea1.append(f.getAbsolutePath()+"\n");
-            final Process p=Runtime.getRuntime().exec("cc -o "+fout+" "+f.getAbsolutePath());
-
+            ProcessBuilder pb =new ProcessBuilder("cc","-o", fout ,f.getAbsolutePath());
+            Process p=pb.start();
             Thread t1=new Thread(()->{
                 int b=-1;
                 InputStreamReader es=new InputStreamReader(p.getErrorStream(),Charset.forName("utf-8"));
